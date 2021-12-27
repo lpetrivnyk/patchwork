@@ -1,0 +1,64 @@
+<% var data = {
+title: "Home",
+author: "Petrivnyk"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<main class="home-page">
+    <section class="hero-home">
+        <div class="container top">
+            <div class="col-6 col-md-12" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 class="title-hero">Lorem ipsum dolor sit amet consectetur</h1>
+            </div>
+            <div class="col-6 col-md-12 wp-text" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, eros turpis feugiat malesuada eget id ut. Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique. Adipiscing leo quis tempus eu, sit sit dignissim pellentesque ultrices.  Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique.</p>
+            </div>
+        </div>
+        <div class="map" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="500" data-aos-duration="2000"><img src="/img/map.jpg" alt=""></div>
+    </section>
+    <section class="about-section">
+        <img src="/img/svg/about-build-desktop.svg" alt="" class="mask-desktop" data-aos-anchor="#aboutDesc" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <img src="/img/svg/about-build-mobile.svg" alt="" class="mask-mobile">
+        <div class="container">
+            <div class="col-6 col-md-12 wp-text" id="aboutDesc" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h2>About company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+            </div>
+        </div>
+    </section>
+    <section class="locations-section">
+        <div class="row">
+            <img src="/img/location.jpg" alt="" class="img">
+            <div class="col-row wp-text">
+                <h2>Locartions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+            </div>
+        </div>
+    </section>
+    <section class="services-section">
+        <div class="container">
+            <div class="grid">
+                <a class="item">
+                    <p>Service №1 <span class="icon-right-bold"></span></p>
+                </a>
+                <a class="item">
+                    <p>Service №2 <span class="icon-right-bold"></span></p>
+                </a>
+                <a class="item">
+                    <p>Service №3 <span class="icon-right-bold"></span></p>
+                </a>
+                <a class="item" style="background-image: url('/img/service.jpg')">
+                    <p>Service №4 <span class="icon-right-bold"></span></p>
+                </a>
+                <a class="item">
+                    <p>Service №5 <span class="icon-right-bold"></span></p>
+                </a>
+                <a class="item">
+                    <p>Service №6 <span class="icon-right-bold"></span></p>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
