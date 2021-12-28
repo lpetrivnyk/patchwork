@@ -61,15 +61,66 @@
             <li><a href="#">en</a></li>
           </ul>
         </nav>
+        <div class="burger burger-open"><span></span> <span></span> <span></span></div>
       </div>
     </header>
+    <div class="mobile-menu">
+      <div class="mobile-menu-top">
+        <a href="/" class="logo"><img src="/img/svg/logo.svg" alt="Logo" /></a>
+        <ul class="lang-items">
+          <li><a href="#">en</a></li>
+          <li><a href="#">ua</a></li>
+          <li><a href="#">ru</a></li>
+        </ul>
+        <div class="burger burger-close"><span></span> <span></span></div>
+      </div>
+      <div class="nav">
+        <ul class="menu-items">
+          <li><a href="">Home</a></li>
+          <li class="menu-item-has-children">
+            <a href="">Locations</a>
+            <ul class="sub-menu">
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="">Services</a>
+            <ul class="sub-menu">
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+          </li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+        <div class="contact-items">
+          <a class="contact-item" href="tel: + 380 907 775 269"
+            ><span class="icon-phone"></span>
+            <p>+ 380 907 775 269</p></a
+          ><a class="contact-item" href="tel: + 380 907 775 269"
+            ><span class="icon-phone"></span>
+            <p>+ 380 907 775 269</p></a
+          ><a class="contact-item" href="mailto: patchwork@gmail.com"
+            ><span class="icon-mail-alt"></span>
+            <p>patchwork@gmail.com</p></a
+          >
+        </div>
+      </div>
+    </div>
     <main class="home-page">
       <section class="hero-home">
         <div class="container top">
-          <div class="col-6" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="col-6 col-md-12" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <h1 class="title-hero">Lorem ipsum dolor sit amet consectetur</h1>
           </div>
-          <div class="col-6 wp-text" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div
+            class="col-6 col-md-12 wp-text"
+            data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, eros turpis feugiat malesuada eget id
               ut. Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique. Adipiscing leo quis tempus
@@ -102,7 +153,7 @@
         <img src="/img/svg/about-build-mobile.svg" alt="" class="mask-mobile" />
         <div class="container">
           <div
-            class="col-6 wp-text"
+            class="col-6 col-md-12 wp-text"
             id="aboutDesc"
             data-aos-anchor-placement="bottom-bottom"
             data-aos="fade-right"
@@ -161,7 +212,7 @@
       <div class="container">
         <div class="left">
           <a href="" class="logo"><img src="/img/svg/logo.svg" alt="" /></a>
-          <p class="copyright">Copyright © All rights reserved</p>
+          <p class="copyright copyright-desktop">Copyright © All rights reserved</p>
         </div>
         <div class="right">
           <div class="col">
@@ -197,6 +248,7 @@
             </ul>
           </div>
         </div>
+        <p class="copyright copyright-mobile">Copyright © All rights reserved</p>
       </div>
     </footer>
     <script
