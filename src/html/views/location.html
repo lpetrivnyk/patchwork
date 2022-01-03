@@ -1,0 +1,123 @@
+<% var data = {
+title: "Home",
+author: "Petrivnyk"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<main class="home-page">
+    <section class="hero-other">
+        <div class="container top">
+            <div class="col-6 col-md-12" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 class="title-hero">Lorem ipsum dolor sit amet consectetur</h1>
+            </div>
+            <div class="col-6 col-md-12 wp-text" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, eros turpis feugiat malesuada eget id ut. Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique. Adipiscing leo quis tempus eu, sit sit dignissim pellentesque ultrices.  Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique.</p>
+                <div class="more-txt" style="display: none">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+                </div>
+                <a class="btn-more" tabindex="0" style="display: inline;">
+                    more
+                </a>
+                <a class="btn-less" tabindex="0" style="display: none;">
+                    less
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-info">
+        <div class="container">
+            <h2 class="title-section">Lorem ipsum</h2>
+            <div class="box">
+                <div class="left col-6 col-md-12 wp-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, eros turpis feugiat malesuada eget id ut. Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique. Adipiscing leo quis tempus eu, sit sit dignissim pellentesque ultrices.  Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, eros turpis feugiat malesuada eget id ut. Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique. Adipiscing leo quis tempus eu, sit sit dignissim pellentesque ultrices.  Nibh nisl, consequat ultrices urna pellentesque venenatis morbi tristique.</p>
+                    <div class="more-txt" style="display: none">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel non nunc, nunc, amet, sed placerat fermentum amet, porttitor. Faucibus porta diam massa commodo lectus sem. Euismod nullam amet leo at suspendisse felis. Leo neque mauris luctus id aenean sit est. A neque, tortor diam, magna est morbi dapibus facilisis. Nec mi magna quis molestie diam consectetur vehicula adipiscing vitae. Euismod posuere habitasse quam ultrices sit sed condimentum tincidunt. Facilisi velit nec sed at. Amet pellentesque eu arcu et velit euismod facilisis consectetur. In etiam malesuada vitae feugiat lorem. </p>
+                    </div>
+                    <a class="btn-more" tabindex="0" style="display: inline;">
+                        more
+                    </a>
+                    <a class="btn-less" tabindex="0" style="display: none;">
+                        less
+                    </a>
+                </div>
+                <div class="right col-6 col-md-12">
+                    <div class="list-items">
+                        <div class="item">
+                            <b>01/</b>
+                            <p>Pretium purus mi duis <a href="#">id viverra aliquam</a> consequat auctor.</p>
+                        </div>
+                        <div class="item">
+                            <b>02/</b>
+                            <p>Massa <a href="#">malesuada volutpat</a> pellentesque est elementum.</p>
+                        </div>
+                        <div class="item">
+                            <b>03/</b>
+                            <p>Nunc porta dui porta interdum <a href="#">mauris in nunc</a>, amet.</p>
+                        </div>
+                        <div class="item">
+                            <b>04/</b>
+                            <p>Sem <a href="#">suspendisse</a> ut suspendisse facilisi.</p>
+                        </div>
+                        <div class="item">
+                            <b>05/</b>
+                            <p>Nisl sed at <a href="#">feugiat mattis</a> nascetur enim.</p>
+                        </div>
+                        <div class="item">
+                            <b>06/</b>
+                            <p>In <a href="#">sagittis eu</a> erat nulla ac pellentesque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-gallery">
+        <div class="container">
+            <div class="swiper gallerySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-1.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-1.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-2.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-2.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-3.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-3.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-1.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-1.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-2.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-2.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/img/gallery-3.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+                            <img src="/img/gallery-3.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
